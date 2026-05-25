@@ -1,0 +1,22 @@
+{
+  "source": "local",
+  "installed_at": "2026-05-25T10:00:00+08:00",
+  "version": "2.0.5",
+  "适用场景": "年度预决算审核、整改复核、公文出具、六表联审。不适用于：机关事业单位工会预决算、离任审计、专项资金审计。",
+  "必须提供的审核要件": "1.前期审核意见（如有） 2.工会年度预决算报表 3.专项补助措施落实情况表（如有） 4.会员活动支出明细表（如有） 5.工会统一社会信用代码及会员/职工/工资总额",
+  "install_guide": "需先安装依赖：gov-doc-format V2.2+（公文排版），并扑行pip install python-docx pandas openpyxl pdfplumber markitdown",
+  "地域说明": "本Skill审核标准以辽宁省总工会相关规定为例编写。其他省份用户请替换为当地最新版本。",
+  "name": "enterprise-union-budget-audit",
+  "author": "ligen",
+  "description": "企业工会预决算审核 — 对企业工会年度预决算报表进行审核，生成审核意见公文（含整改复核、问题清单、结论等）",
+  "category": "审计工会",
+  "tags": [
+    "工会",
+    "预决算",
+    "审核",
+    "公文"
+  ],
+  "dependencies": [
+    "gov-doc-format V2.2+"
+  ]
+}
